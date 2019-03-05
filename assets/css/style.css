@@ -19,10 +19,11 @@ body {
 	height: 20vh;
 	width: 100%;
 	color: black;
-	background-color: #bccd95;
+	background-color: #2500FF;
 	font-size: 8vw;
 	text-align: right;
-	border: 8px solid #bfc4ce;
+	border: 8px solid #7AFF34
+	...;
 	padding: 0px;
 }
 
@@ -44,38 +45,40 @@ body {
 	height: 30px;
 	border: none;
 	cursor: pointer;
-	border-top: 4px solid transparent;
-	border-radius: 12px;
+	border-top: 6px solid transparent;
+	border-radius: 3px;
+	font-family: serif;
 }
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: #C88535;
 	border-bottom: black 8px solid;
-	border-top: 4px #6f6f6f solid;
+	border-top: 4px #E8334C solid;
+	font-family: inherit;
 }
 .button.operator {
 	color: white;
-	background-color: #4d5966;
+	background-color: #6CFFAB;
 	border-bottom: black 8px solid;
-	border-top: 4px #6f6f6f solid;
+	border-top: 4px #20ABE8 solid;
 }
 .button.number {
 	color: white;
-	background-color: #7091ab;
+	background-color: #A678E8;
 	border-bottom: black 8px solid;
-	border-top: 4px #6f6f6f solid;
+	border-top: 4px #753DFF solid;
 }
 
 /* Simulate Button Press */
 .function:active {
 	border-top: black 8px solid;
-	border-bottom: 4px #6f6f6f solid;
+	border-bottom: 4px #E8805A solid;
 }
 .operator:active {
 	border-top: black 8px solid;
-	border-bottom: #303030 4px solid;
+	border-bottom: #15212B 4px solid;
 }
 .number:active {
 	border-top: black 8px solid;
-	border-bottom: 4px #6f6f6f solid;
+	border-bottom: 4px #8BCAC2 solid;
 }

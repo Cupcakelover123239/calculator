@@ -12,11 +12,19 @@ function hasLocalStorage() {
 }
 
 var Calculator = {
+	canAcceptDecimal: function() {
+		// check whether or not user can enter a can enter a decimal
+		return true;
+
+	},
 	display: function(val) {
 		// change the display
 		document.getElementById("d").value = val;
 	},
 	type: function(val) {
+		if(val === '.' && !Calculator.canAcceptDecimal()) {
+			val = '';
+		}
 		// type numbers and operators
 		document.getElementById("d").value += val;
 	},
